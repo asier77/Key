@@ -1,6 +1,6 @@
-FROM node:16
+FROM node:15-alpine
 
-EXPOSE 8080
+EXPOSE 3000
 
 RUN mkdir -p /home/node/app/Key/node_modules
 
